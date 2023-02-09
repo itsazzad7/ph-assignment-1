@@ -116,9 +116,12 @@ text-align: justify;
     margin-top: 135px;
     margin-bottom: 130px;
     background-image: url('images/watch.png');
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    /* max-width: 1140px; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    width: 1140px;
+    height: 300px;
+
+    max-width: 1140px;
 }
 .gradient-bg-box{
     padding-top: 60px;
@@ -130,6 +133,17 @@ text-align: justify;
     font-weight: 700;
     font-size: 40px;
     color: white;
+}
+.gradient-bg-btn{
+    margin-top: 24px;
+    padding: 20px 36px;
+    font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+color: #005FAC;
+background: white;
+border: none;
+border-radius: 10px;
 }
  
 /* from section ///////////////////////////////////////////////// */
